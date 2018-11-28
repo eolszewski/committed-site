@@ -8,7 +8,7 @@ import {
   sectionDark
 } from "assets/jss/material-kit-pro-react.jsx";
 
-const productStyle = {
+const overviewStyle = {
   container,
   mlAuto,
   mrAuto,
@@ -19,11 +19,7 @@ const productStyle = {
     textAlign: "center"
   },
   paddedSection: {
-    padding: "80px 0",
-    "& hr": {
-      margin: "70px auto",
-      maxWidth: "970px"
-    }
+    padding: "80px 0"
   },
   sectionSpace: {
     height: "70px",
@@ -41,10 +37,7 @@ const productStyle = {
     "& $cardDescription": {
       color: "rgba(255, 255, 255, 0.76) !important"
     }
-  },
-  info: {
-    padding: "0"
   }
 };
 
-export default productStyle;
+export default overviewStyle;

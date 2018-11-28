@@ -8,7 +8,7 @@ const signupPageStyle = {
     zIndex: "2",
     position: "relative",
     paddingTop: "20vh",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   pageHeader: {
     minHeight: "100vh",
@@ -103,7 +103,7 @@ const signupPageStyle = {
     float: "left!important",
     display: "block",
     "&,& *,& *:hover,& *:focus": {
-      color: "#FFFFFF !important"
+      color: "#FCFCFC !important"
     }
   },
   right: {
@@ -111,7 +111,7 @@ const signupPageStyle = {
     margin: "0",
     float: "right",
     "&,& *,& *:hover,& *:focus": {
-      color: "#FFFFFF !important"
+      color: "#FCFCFC !important"
     }
   },
   icon: {

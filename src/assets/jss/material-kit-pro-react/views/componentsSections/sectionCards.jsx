@@ -25,7 +25,7 @@ const styles = {
     background: "#E5E5E5"
   },
   sectionWhite: {
-    background: "#FFFFFF"
+    background: "#FCFCFC"
   },
   cardTitleAbsolute: {
     ...cardTitle,
@@ -87,7 +87,7 @@ const styles = {
   },
   cardCategoryFullWhite: {
     marginTop: "10px",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   cardDescription: {
     ...description
@@ -180,7 +180,7 @@ const styles = {
     borderColor: "rgba(255, 255, 255, 0.25)"
   },
   iconWhite: {
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   iconRose: {
     color: roseColor

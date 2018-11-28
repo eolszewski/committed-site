@@ -16,7 +16,7 @@ const headersSection = theme => ({
     zIndex: "2",
     position: "relative",
     "& h1, & h4, & h6": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     }
   },
   conatinerHeader2: {
@@ -24,7 +24,7 @@ const headersSection = theme => ({
     zIndex: "2",
     position: "relative",
     "& h1, & h4, & h6": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     paddingTop: "25vh"
   },

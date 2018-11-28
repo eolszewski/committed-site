@@ -22,7 +22,7 @@ const testimonialsSection = {
       color: "rgba(255, 255, 255, 0.76)"
     },
     "& $cardTitle": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     backgroundSize: "550% 450%"
   },
@@ -52,7 +52,7 @@ const testimonialsSection = {
       backgroundColor: "rgba(0, 0, 0, 0.7)"
     },
     "& $title": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     "& $description": {
       color: "rgba(255, 255, 255, 0.76)"

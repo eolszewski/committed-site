@@ -187,7 +187,7 @@ const cardSubtitle = {
 };
 
 const main = {
-  background: "#FFFFFF",
+  background: "#FCFCFC",
   position: "relative",
   zIndex: "3"
 };

@@ -8,7 +8,7 @@ import {
   sectionDark
 } from "assets/jss/material-kit-pro-react.jsx";
 
-const productStyle = {
+const videoStyle = {
   container,
   mlAuto,
   mrAuto,
@@ -19,11 +19,7 @@ const productStyle = {
     textAlign: "center"
   },
   paddedSection: {
-    padding: "80px 0",
-    "& hr": {
-      margin: "70px auto",
-      maxWidth: "970px"
-    }
+    padding: "80px 0"
   },
   sectionSpace: {
     height: "70px",
@@ -42,9 +38,19 @@ const productStyle = {
       color: "rgba(255, 255, 255, 0.76) !important"
     }
   },
-  info: {
-    padding: "0"
+  videoContainer: {
+    position: "relative",
+    width: "100%",
+    height: "0",
+    paddingBottom: "56.25%"
+  },
+  video: {
+    position: "absolute",
+    top: "0",
+    left: "0",
+    width: "100%",
+    height: "100%"
   }
 };
 
-export default productStyle;
+export default videoStyle;

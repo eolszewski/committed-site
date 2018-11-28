@@ -45,7 +45,7 @@ const features = {
     "& $title,& $container": {
       position: "relative",
       zIndex: "2",
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     "&:after": {
       background: "rgba(0,0,0,0.55)",
@@ -77,7 +77,7 @@ const features = {
       maxWidth: "310px",
       minHeight: "320px",
       "& h4,& p,& svg,& .fab,& .fas,& .far,& .fal,& .material-icons": {
-        color: "#FFFFFF"
+        color: "#FCFCFC"
       }
     }
   },

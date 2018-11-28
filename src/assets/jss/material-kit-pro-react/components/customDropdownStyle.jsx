@@ -120,42 +120,42 @@ const customDropdownStyle = theme => ({
   primaryHover: {
     "&:hover": {
       backgroundColor: primaryColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...primaryBoxShadow
     }
   },
   infoHover: {
     "&:hover": {
       backgroundColor: infoColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...infoBoxShadow
     }
   },
   successHover: {
     "&:hover": {
       backgroundColor: successColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...successBoxShadow
     }
   },
   warningHover: {
     "&:hover": {
       backgroundColor: warningColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...warningBoxShadow
     }
   },
   dangerHover: {
     "&:hover": {
       backgroundColor: dangerColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...dangerBoxShadow
     }
   },
   roseHover: {
     "&:hover": {
       backgroundColor: roseColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...roseBoxShadow
     }
   },

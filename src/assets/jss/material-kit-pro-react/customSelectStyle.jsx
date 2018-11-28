@@ -80,21 +80,21 @@ const customSelectStyle = {
     paddingRight: "30px",
     "&:hover": {
       backgroundColor: primaryColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...primaryBoxShadow
     }
   },
   selectMenuItemSelected: {
     backgroundColor: primaryColor + "!important",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   selectMenuItemSelectedMultiple: {
     "&:hover": {
       backgroundColor: primaryColor + "!important",
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       ...primaryBoxShadow,
       "&:after": {
-        color: "#FFFFFF"
+        color: "#FCFCFC"
       }
     },
     "&:after": {

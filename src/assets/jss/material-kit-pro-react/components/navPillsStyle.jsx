@@ -87,7 +87,7 @@ const navPillsStyle = theme => ({
   },
   primary: {
     "&,&:hover": {
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       backgroundColor: primaryColor,
       boxShadow:
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4)"
@@ -95,7 +95,7 @@ const navPillsStyle = theme => ({
   },
   info: {
     "&,&:hover": {
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       backgroundColor: infoColor,
       boxShadow:
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4)"
@@ -103,7 +103,7 @@ const navPillsStyle = theme => ({
   },
   success: {
     "&,&:hover": {
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       backgroundColor: successColor,
       boxShadow:
         "0 2px 2px 0 rgba(76, 175, 80, 0.14), 0 3px 1px -2px rgba(76, 175, 80, 0.2), 0 1px 5px 0 rgba(76, 175, 80, 0.12)"
@@ -111,7 +111,7 @@ const navPillsStyle = theme => ({
   },
   warning: {
     "&,&:hover": {
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       backgroundColor: warningColor,
       boxShadow:
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)"
@@ -119,7 +119,7 @@ const navPillsStyle = theme => ({
   },
   danger: {
     "&,&:hover": {
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       backgroundColor: dangerColor,
       boxShadow:
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4)"
@@ -127,7 +127,7 @@ const navPillsStyle = theme => ({
   },
   rose: {
     "&,&:hover": {
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       backgroundColor: roseColor,
       boxShadow:
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4)"

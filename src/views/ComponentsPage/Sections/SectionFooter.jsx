@@ -48,39 +48,15 @@ const SectionFooter = props => {
                   Material Kit PRO React
                 </a>
               </div>
-              <div className={classes.pullCenter}>
+              <div className={classes.left}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/"
-                      className={classes.block}
-                    >
-                      Creative Tim
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/presentation"
-                      className={classes.block}
-                    >
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="//blog.creative-tim.com/"
+                      href="/blog"
                       className={classes.block}
                     >
                       Blog
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license"
-                      className={classes.block}
-                    >
-                      Licenses
-                    </a>
+                  </a>
                   </ListItem>
                 </List>
               </div>
@@ -130,48 +106,16 @@ const SectionFooter = props => {
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/"
-                      className={classes.block}
-                    >
-                      Creative Tim
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/presentation"
-                      className={classes.block}
-                    >
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="//blog.creative-tim.com/"
+                      href="/blog"
                       className={classes.block}
                     >
                       Blog
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license"
-                      className={classes.block}
-                    >
-                      Licenses
-                    </a>
+                  </a>
                   </ListItem>
                 </List>
               </div>
               <div className={classes.right}>
-                &copy; {1900 + new Date().getYear()} , made with{" "}
-                <Favorite className={classes.icon} /> by{" "}
-                <a
-                  href="https://www.creative-tim.com"
-                  className={classes.aClasses}
-                >
-                  Creative Tim
-                </a>{" "}
-                for a better web.
+                Made with{" "} <Favorite className={classes.icon} /> in Austin, TX.
               </div>
             </div>
           }
@@ -190,49 +134,15 @@ const SectionFooter = props => {
                   Material Kit PRO React
                 </a>
               </div>
-              <div className={classes.pullCenter}>
+              <div className={classes.left}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="http://blog.creative-tim.com/"
+                      href="/blog"
                       className={classes.block}
                     >
                       Blog
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/presentation"
-                      className={classes.block}
-                    >
-                      Presentation
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="#pablito"
-                      onClick={e => e.preventDefault()}
-                      className={classes.block}
-                    >
-                      Discover
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="#pablito"
-                      onClick={e => e.preventDefault()}
-                      className={classes.block}
-                    >
-                      Payment
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/contact-us"
-                      className={classes.block}
-                    >
-                      Contact us
-                    </a>
+                  </a>
                   </ListItem>
                 </List>
               </div>

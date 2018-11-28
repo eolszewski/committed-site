@@ -35,7 +35,7 @@ const teamsSection = {
     ...section,
     position: "relative",
     "& $title": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     "& $descriptionWhite": {
       color: "rgba(255, 255, 255, 0.76)"
@@ -73,10 +73,10 @@ const teamsSection = {
   card5: {
     textAlign: "left",
     "& $cardTitle": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     "& $description": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     }
   }
 };

@@ -125,42 +125,42 @@ const cardStyle = {
     "& h1 small": {
       color: "rgba(255, 255, 255, 0.8)"
     },
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   info: {
     background: "linear-gradient(60deg,#26c6da,#0097a7)",
     "& h1 small": {
       color: "rgba(255, 255, 255, 0.8)"
     },
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   success: {
     background: "linear-gradient(60deg,#66bb6a,#388e3c)",
     "& h1 small": {
       color: "rgba(255, 255, 255, 0.8)"
     },
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   warning: {
     background: "linear-gradient(60deg,#ffa726,#f57c00)",
     "& h1 small": {
       color: "rgba(255, 255, 255, 0.8)"
     },
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   danger: {
     background: "linear-gradient(60deg,#ef5350,#d32f2f)",
     "& h1 small": {
       color: "rgba(255, 255, 255, 0.8)"
     },
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   rose: {
     background: "linear-gradient(60deg,#ec407a,#c2185b)",
     "& h1 small": {
       color: "rgba(255, 255, 255, 0.8)"
     },
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   }
 };
 

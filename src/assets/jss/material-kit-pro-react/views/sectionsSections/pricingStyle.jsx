@@ -19,7 +19,7 @@ const pricingSection = {
   description,
   cardTitleWhite: {
     ...cardTitle,
-    color: "#FFFFFF !important"
+    color: "#FCFCFC !important"
   },
   sectionGray: {
     background: "#E5E5E5"
@@ -39,7 +39,7 @@ const pricingSection = {
       color: "rgba(255, 255, 255, 0.76)"
     },
     "& $title": {
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       marginBottom: "10px"
     },
     "&:after": {
@@ -73,7 +73,7 @@ const pricingSection = {
     ...description
   },
   cardCategoryWhite: {
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   cardDescription: {
     ...description
@@ -101,7 +101,7 @@ const pricingSection = {
     }
   },
   iconWhite: {
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   iconRose: {
     color: roseColor

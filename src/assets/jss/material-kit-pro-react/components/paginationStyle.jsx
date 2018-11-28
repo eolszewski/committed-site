@@ -58,7 +58,7 @@ const paginationStyle = {
     "&,&:hover,&:focus": {
       backgroundColor: primaryColor,
       borderColor: primaryColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       boxShadow:
         "0 4px 5px 0 rgba(156, 39, 176, 0.14), 0 1px 10px 0 rgba(156, 39, 176, 0.12), 0 2px 4px -1px rgba(156, 39, 176, 0.2)"
     },
@@ -71,7 +71,7 @@ const paginationStyle = {
     "&,&:hover,&:focus": {
       backgroundColor: infoColor,
       borderColor: infoColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       boxShadow:
         "0 4px 5px 0 rgba(0, 188, 212, 0.14), 0 1px 10px 0 rgba(0, 188, 212, 0.12), 0 2px 4px -1px rgba(0, 188, 212, 0.2)"
     },
@@ -84,7 +84,7 @@ const paginationStyle = {
     "&,&:hover,&:focus": {
       backgroundColor: successColor,
       borderColor: successColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       boxShadow:
         "0 4px 5px 0 rgba(76, 175, 80, 0.14), 0 1px 10px 0 rgba(76, 175, 80, 0.12), 0 2px 4px -1px rgba(76, 175, 80, 0.2)"
     },
@@ -97,7 +97,7 @@ const paginationStyle = {
     "&,&:hover,&:focus": {
       backgroundColor: warningColor,
       borderColor: warningColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       boxShadow:
         "0 4px 5px 0 rgba(255, 152, 0, 0.14), 0 1px 10px 0 rgba(255, 152, 0, 0.12), 0 2px 4px -1px rgba(255, 152, 0, 0.2)"
     },
@@ -110,7 +110,7 @@ const paginationStyle = {
     "&,&:hover,&:focus": {
       backgroundColor: dangerColor,
       borderColor: dangerColor,
-      color: "#FFFFFF",
+      color: "#FCFCFC",
       boxShadow:
         "0 4px 5px 0 rgba(244, 67, 54, 0.14), 0 1px 10px 0 rgba(244, 67, 54, 0.12), 0 2px 4px -1px rgba(244, 67, 54, 0.2)"
     },

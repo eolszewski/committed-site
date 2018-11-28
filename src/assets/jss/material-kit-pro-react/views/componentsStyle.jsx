@@ -19,7 +19,7 @@ const componentsStyle = {
     position: "relative"
   },
   brand: {
-    color: "#FFFFFF",
+    color: "#FCFCFC",
     textAlign: "center",
     "& h1": {
       fontSize: "4.2rem",
@@ -35,7 +35,7 @@ const componentsStyle = {
   },
   title: {
     ...title,
-    color: "#FFFFFF !important"
+    color: "#FCFCFC !important"
   },
   link: {
     textDecoration: "none"

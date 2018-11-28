@@ -32,7 +32,7 @@ const projectsSection = {
   },
   cardTitleWhite: {
     ...cardTitle,
-    color: "#FFFFFF !important",
+    color: "#FCFCFC !important",
     marginTop: "10px !important"
   },
   cardDescription: {
@@ -52,7 +52,7 @@ const projectsSection = {
     ...sectionDark,
     backgroundSize: "550% 450%",
     "& $title, & $cardTitle": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     "& $cardCategory": {
       color: "rgba(255, 255, 255, 0.5) !important"
@@ -74,7 +74,7 @@ const projectsSection = {
     marginTop: "0",
     marginBottom: "0",
     "& $cardTitle": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     }
   },
   cardBody4: {

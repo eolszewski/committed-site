@@ -15,10 +15,10 @@ const blogPostPageStyle = {
   },
   title: {
     ...title,
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   subtitle: {
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   main: {
     ...main,

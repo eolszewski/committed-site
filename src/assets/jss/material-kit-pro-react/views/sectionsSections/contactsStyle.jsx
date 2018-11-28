@@ -37,7 +37,7 @@ const contactsSection = {
       backgroundColor: "rgba(0, 0, 0, 0.7)"
     },
     "& $title": {
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     },
     "& $description": {
       color: "rgba(255, 255, 255, 0.76)"
@@ -62,7 +62,7 @@ const contactsSection = {
     marginTop: "30px",
     "& $cardTitle": {
       marginBottom: "0.75rem !important",
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     }
   },
   textCenter: {
@@ -84,7 +84,7 @@ const contactsSection = {
     float: "left",
     "& $cardTitle": {
       marginBottom: "0.75rem !important",
-      color: "#FFFFFF"
+      color: "#FCFCFC"
     }
   },
   map: {

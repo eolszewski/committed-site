@@ -81,27 +81,27 @@ const style = {
     "& h1 small": {
       color: "rgba(255, 255, 255, 0.8)"
     },
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   wrapperInfo: {
     background: "linear-gradient(60deg,#26c6da,#0097a7)",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   wrapperSuccess: {
     background: "linear-gradient(60deg,#66bb6a,#388e3c)",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   wrapperWarning: {
     background: "linear-gradient(60deg,#ffa726,#f57c00)",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   wrapperDanger: {
     background: "linear-gradient(60deg,#ef5350,#d32f2f)",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   },
   wrapperRose: {
     background: "linear-gradient(60deg,#ec407a,#c2185b)",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   }
 };
 

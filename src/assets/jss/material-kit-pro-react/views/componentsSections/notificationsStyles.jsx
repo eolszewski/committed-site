@@ -6,7 +6,7 @@ import {
 
 const notificationsStyles = {
   section: {
-    backgroundColor: "#FFFFFF",
+    backgroundColor: "#FCFCFC",
     display: "block",
     width: "100%",
     position: "relative",

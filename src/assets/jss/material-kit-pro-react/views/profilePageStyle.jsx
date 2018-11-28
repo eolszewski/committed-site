@@ -18,7 +18,7 @@ const profilePageStyle = {
   ...tooltipsStyle,
   cardTitleWhite: {
     ...cardTitle,
-    color: "#FFFFFF !important"
+    color: "#FCFCFC !important"
   },
   cardTitle,
   profile: {

@@ -8,7 +8,7 @@ const signupPageStyle = theme => ({
   description,
   cardTitle: {
     ...cardTitle,
-    color: "#FFFFFF !important"
+    color: "#FCFCFC !important"
   },
   container: {
     ...container,
@@ -88,7 +88,7 @@ const signupPageStyle = theme => ({
     float: "left!important",
     display: "block",
     "&,& *,& *:hover,& *:focus": {
-      color: "#FFFFFF !important"
+      color: "#FCFCFC !important"
     }
   },
   right: {
@@ -96,7 +96,7 @@ const signupPageStyle = theme => ({
     margin: "0",
     float: "right",
     "&,& *,& *:hover,& *:focus": {
-      color: "#FFFFFF !important"
+      color: "#FCFCFC !important"
     }
   },
   icon: {

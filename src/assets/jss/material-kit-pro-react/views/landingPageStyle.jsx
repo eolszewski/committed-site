@@ -7,7 +7,7 @@ import {
 
 const landingPageStyle = {
   container: {
-    color: "#FFFFFF",
+    color: "#FCFCFC",
     ...container,
     zIndex: "2"
   },
@@ -17,7 +17,7 @@ const landingPageStyle = {
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    color: "#FFFFFF",
+    color: "#FCFCFC",
     textDecoration: "none"
   },
   subtitle: {

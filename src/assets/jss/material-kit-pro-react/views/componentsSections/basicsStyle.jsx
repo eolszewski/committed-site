@@ -33,7 +33,7 @@ const basicsStyle = {
   icons: {
     width: "17px",
     height: "17px",
-    color: "#FFFFFF"
+    color: "#FCFCFC"
   }
 };
 

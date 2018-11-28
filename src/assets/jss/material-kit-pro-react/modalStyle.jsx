@@ -43,7 +43,7 @@ const modalStyle = theme => ({
     fontSize: "1.5rem",
     fontWeight: "500",
     lineHeight: "1",
-    textShadow: "0 1px 0 #ffffff",
+    textShadow: "0 1px 0 #FCFCFC",
     opacity: ".5"
   },
   modalClose: {

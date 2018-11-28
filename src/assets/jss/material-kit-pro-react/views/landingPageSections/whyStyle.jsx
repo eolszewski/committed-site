@@ -1,6 +1,6 @@
 import { title, mrAuto, mlAuto } from "assets/jss/material-kit-pro-react.jsx";
 
-const workStyle = {
+const whyStyle = {
   mrAuto,
   mlAuto,
   section: {
@@ -27,4 +27,4 @@ const workStyle = {
   }
 };
 
-export default workStyle;
+export default whyStyle;

@@ -18,7 +18,7 @@ const sectionPillsStyle = {
   },
   cardTitle: {
     ...cardTitle,
-    color: "#FFFFFF !important"
+    color: "#FCFCFC !important"
   },
   icons: {
     width: "1.1rem",

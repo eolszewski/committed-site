@@ -30,7 +30,7 @@ const sectionImageStyle = {
   },
   cardTitle: {
     ...cardTitle,
-    color: "#FFFFFF !important"
+    color: "#FCFCFC !important"
   },
   description: {
     color: "rgba(255, 255, 255, 0.76)"
