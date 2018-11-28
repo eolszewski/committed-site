@@ -209,12 +209,12 @@ legend {
     outline: 0; }
 
 a {
-  color: #353836;
-  text-decoration: underline;
+  color: #9c27b0;
+  text-decoration: none;
   background-color: transparent; }
   a:hover, a:focus {
-    color: #2a2c2b;
-    text-decoration: underline; }
+    color: #89229b;
+    text-decoration: none; }
 
 label {
   font-size: 14px;
@@ -436,7 +436,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   cursor: pointer;
   border-radius: 100%;
   transition: all 0.2s ease-out;
-  border: 1px solid #353836;
+  border: 1px solid #9c27b0;
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
 
@@ -454,7 +454,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   cursor: pointer;
   border-radius: 100%;
   transition: all 0.2s ease-out;
-  border: 1px solid #353836;
+  border: 1px solid #9c27b0;
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
 
@@ -634,10 +634,10 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border: 1px solid #333; }
 
 .noUi-target.slider-primary .noUi-connect, .noUi-target.slider-primary.noUi-connect {
-  background-color: #353836; }
+  background-color: #9c27b0; }
 
 .noUi-target.slider-primary .noUi-handle {
-  border-color: #353836; }
+  border-color: #9c27b0; }
 
 .noUi-target.slider-info .noUi-connect, .noUi-target.slider-info.noUi-connect {
   background-color: #00bcd4; }
@@ -690,7 +690,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     margin-top: 0; }
   .rdt input.form-control {
     border: 0;
-    background-image: linear-gradient(#353836, #353836), linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
     background-size: 0 2px, 100% 1px;
     background-repeat: no-repeat;
     background-position: center bottom, center calc(100% - 1px);
@@ -712,7 +712,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     color: #555; }
   .rdt input.form-control:focus {
     outline: none;
-    background-image: linear-gradient(#353836, #353836), linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
     background-size: 100% 2px, 100% 1px;
     box-shadow: none;
     transition-duration: 0.3s; }
@@ -740,12 +740,12 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     top: -5px;
     left: 10px;
     right: auto;
-    color: #FCFCFC;
+    color: #FFFFFF;
     border-bottom: .4em solid;
     border-right: .4em solid transparent;
     border-left: .4em solid transparent; }
   .rdtPicker:after {
-    border-bottom: .4em solid #FCFCFC;
+    border-bottom: .4em solid #FFFFFF;
     border-right: .4em solid transparent;
     border-left: .4em solid transparent;
     content: "";
@@ -789,7 +789,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   padding: 0px;
   border-radius: 50%; }
   .rdtDay.rdtToday.rdtActive, .rdtDay.rdtActive, .rdtDay.rdtActive:hover {
-    background-color: #353836 !important;
+    background-color: #9c27b0 !important;
     color: #fff;
     box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6); }
 
@@ -859,10 +859,10 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   color: #495057; }
 
 .rdtPicker .rdtTimeToggle {
-  color: #353836; }
+  color: #9c27b0; }
 
 .rdtPicker .rdtTime th.rdtSwitch {
-  color: #353836; }
+  color: #9c27b0; }
 
 .rdtPrev span,
 .rdtNext span {
@@ -938,9 +938,9 @@ td.rdtYear:hover {
     border: 1px solid transparent; }
 
 .rdtCounters .rdtCounter:last-child .rdtCount {
-  color: #353836;
+  color: #9c27b0;
   border-radius: 50%;
-  border: 1px solid #353836; }
+  border: 1px solid #9c27b0; }
 
 .rdtCounterSeparator {
   padding: 7px;
@@ -951,7 +951,7 @@ td.rdtYear:hover {
   cursor: pointer;
   display: block;
   border-radius: 50%;
-  color: #353836;
+  color: #9c27b0;
   -webkit-transition: all 60ms ease-in;
   -moz-transition: all 60ms ease-in;
   -o-transition: all 60ms ease-in;
@@ -1005,7 +1005,7 @@ td.rdtYear:hover {
     .rdtMonths .rdtYear.rdtActive,
     .rdtYears .rdtMonth.rdtActive,
     .rdtYears .rdtYear.rdtActive {
-      background-color: #353836 !important;
+      background-color: #9c27b0 !important;
       color: #fff; }
 
 /*!
@@ -1447,7 +1447,7 @@ td.rdtYear:hover {
     left: 15%;
     z-index: 10;
     padding-top: 20px;
-    color: #FCFCFC;
+    color: #ffffff;
     text-align: center;
     z-index: 3;
     display: none; }
@@ -1655,7 +1655,7 @@ button.slick-arrow.slick-next {
   position: relative;
   padding: 3px 8px;
   border-radius: 12px;
-  color: #FCFCFC;
+  color: #FFFFFF;
   font-weight: 500;
   font-size: 0.75em;
   text-transform: uppercase;
@@ -1680,7 +1680,7 @@ button.slick-arrow.slick-next {
   right: 0px;
   opacity: 0;
   background-color: transparent;
-  color: #FCFCFC; }
+  color: #FFFFFF; }
 
 .react-tagsinput-input {
   background: transparent;
@@ -1708,9 +1708,9 @@ button.slick-arrow.slick-next {
       opacity: 1;
       padding-right: 4px;
       background-color: transparent;
-      color: #FCFCFC; }
+      color: #FFFFFF; }
   .react-tagsinput .react-tagsinput-tag.primary {
-    background-color: #353836; }
+    background-color: #9c27b0; }
   .react-tagsinput .react-tagsinput-tag.info {
     background-color: #00bcd4; }
   .react-tagsinput .react-tagsinput-tag.success {

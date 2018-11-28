@@ -1,0 +1,9 @@
+{
+  apps : [
+    {
+      name      : "your-app",
+      script    : "npm start",
+      interpreter: "none"
+    }
+  ]
+}
