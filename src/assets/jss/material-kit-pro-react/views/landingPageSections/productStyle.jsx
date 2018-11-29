@@ -15,6 +15,9 @@ const productStyle = {
   title,
   description,
   cardTitle,
+  mlAuto: {
+    ...mlAuto
+  },
   textCenter: {
     textAlign: "center"
   },
@@ -29,21 +32,16 @@ const productStyle = {
     height: "70px",
     display: "block"
   },
-  sectionDark: {
-    ...sectionDark,
-    backgroundSize: "550% 450%",
-    "& $title, & $cardTitle": {
-      color: "#FCFCFC"
-    },
-    "& $cardCategory": {
-      color: "rgba(255, 255, 255, 0.5) !important"
-    },
-    "& $cardDescription": {
-      color: "rgba(255, 255, 255, 0.76) !important"
-    }
-  },
   info: {
     padding: "0"
+  },
+  center: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center"
+  },
+  flex: {
+    display: "flex"
   }
 };
 

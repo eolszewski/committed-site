@@ -1,29 +1,29 @@
-import { title, mrAuto, mlAuto } from "assets/jss/material-kit-pro-react.jsx";
+import {
+  container,
+  mlAuto,
+  mrAuto,
+  title,
+  cardTitle,
+  description
+} from "assets/jss/material-kit-pro-react.jsx";
 
 const whyStyle = {
-  mrAuto,
+  container,
   mlAuto,
-  section: {
-    padding: "70px 0"
-  },
-  title: {
-    ...title,
-    marginBottom: "1rem",
-    marginTop: "30px",
-    minHeight: "32px",
-    textDecoration: "none",
-    textAlign: "center"
-  },
-  description: {
-    color: "#999",
-    textAlign: "center"
-  },
+  mrAuto,
+  title,
+  description,
+  cardTitle,
   textCenter: {
     textAlign: "center"
   },
-  textArea: {
-    marginRight: "15px",
-    marginLeft: "15px"
+  topPaddedSection: {
+    paddingTop: "80px",
+    background: "white"
+  },
+  sectionSpace: {
+    height: "70px",
+    display: "block"
   }
 };
 

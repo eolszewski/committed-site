@@ -12,9 +12,12 @@ const videoStyle = {
   container,
   mlAuto,
   mrAuto,
-  title,
   description,
   cardTitle,
+  title: {
+    ...title,
+    marginBottom: "60px"
+  },
   textCenter: {
     textAlign: "center"
   },
