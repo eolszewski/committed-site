@@ -37,6 +37,12 @@ const overviewStyle = {
     "& $cardDescription": {
       color: "rgba(255, 255, 255, 0.76) !important"
     }
+  },
+  signUpButton: {
+    fontSize: "24px",
+    color: "#2A2C2B",
+    background: "#FCFCFC",
+    marginTop: "30px"
   }
 };
 

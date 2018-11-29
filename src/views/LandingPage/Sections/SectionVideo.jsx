@@ -5,6 +5,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+import Button from "components/CustomButtons/Button.jsx";
 
 import videoStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/videoStyle.jsx";
 
@@ -28,8 +29,11 @@ class SectionVideo extends React.Component {
               >
                 <h2 className={classes.title}>Your small amount of commitment adds up.</h2>
                 <div className={classes.videoContainer}>
-                  <iframe src="https://www.youtube.com/embed/_HEnohs6yYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className={classes.video} allowfullscreen></iframe>
+                  <iframe src="https://www.youtube.com/embed/_HEnohs6yYw" title="The Choice" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className={classes.video} allowFullScreen></iframe>
                 </div>
+                <Button color="primary" onClick={() => window.open('https://goo.gl/forms/4kttv9Ig6uiibswy1')} className={classes.signUpButton}>
+                  Get Early Access
+                </Button>
               </GridItem>
             </GridContainer>
           </div>

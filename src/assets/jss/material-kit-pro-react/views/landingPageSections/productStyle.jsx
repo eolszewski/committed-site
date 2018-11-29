@@ -4,8 +4,7 @@ import {
   mrAuto,
   title,
   cardTitle,
-  description,
-  sectionDark
+  description
 } from "assets/jss/material-kit-pro-react.jsx";
 
 const productStyle = {
@@ -15,9 +14,6 @@ const productStyle = {
   title,
   description,
   cardTitle,
-  mlAuto: {
-    ...mlAuto
-  },
   textCenter: {
     textAlign: "center"
   },

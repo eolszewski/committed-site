@@ -53,6 +53,12 @@ const videoStyle = {
     left: "0",
     width: "100%",
     height: "100%"
+  },
+  signUpButton: {
+    fontSize: "24px",
+    color: "#2A2C2B",
+    background: "#FCFCFC",
+    marginTop: "30px"
   }
 };
 
