@@ -32,7 +32,7 @@ class SectionVideo extends React.Component {
                   <iframe src="https://www.youtube.com/embed/_HEnohs6yYw" title="The Choice" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" className={classes.video} allowFullScreen></iframe>
                 </div>
                 <Button color="primary" onClick={() => window.open('https://goo.gl/forms/4kttv9Ig6uiibswy1')} className={classes.signUpButton}>
-                  Get Early Access
+                  Let Us Hold You Accountable
                 </Button>
               </GridItem>
             </GridContainer>

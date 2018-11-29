@@ -66,21 +66,21 @@ class SectionProduct extends React.Component {
                   title="Get Action"
                   description="You tell us what you want to improve, and we program it all for you - no more information overload or looking for the one thing to change you."
                   icon={Done}
-                  iconColor="info"
+                  iconColor="gray"
                 />
                 <InfoArea
                   className={classes.info}
                   title="Get Accountability"
                   description="Connect with people based on shared values instead of just shared hard skills. This will open the door for more meaningful connections in a world where connectivity is slowly fading out."
                   icon={People}
-                  iconColor="info"
+                  iconColor="gray"
                 />
                 <InfoArea
                   className={classes.info}
                   title="Get Growth"
                   description="We take it further by showing our work and how people develop throughout the process with various ‘affirmations’ and ‘gifts’. On top of this, the platform is much less expensive than a personal coach."
                   icon={Star}
-                  iconColor="info"
+                  iconColor="gray"
                 />
               </GridItem>
             </GridContainer>
