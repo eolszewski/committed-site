@@ -39,10 +39,20 @@ const overviewStyle = {
     }
   },
   signUpButton: {
-    fontSize: "24px",
+    fontSize: "32px",
     color: "#2A2C2B",
     background: "#FCFCFC",
-    marginTop: "30px"
+    marginTop: "60px",
+    "&:hover": {
+      color: "#FCFCFC",
+      background: "#2A2C2B",
+      boxShadow: "0px 0px 15px 5px rgba(255, 255, 255, 0.26)",
+    }
+  },
+  headerImg: {
+    width: "100%",
+    marginLeft: "auto",
+    marginRight: "auto"
   }
 };
 

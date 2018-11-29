@@ -37,7 +37,7 @@ class LandingPage extends React.Component {
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="/blog"
+                      href="https://medium.com/the-committed-archives"
                       className={classes.block}
                     >
                       Blog

@@ -17,7 +17,7 @@ import InfoArea from "components/InfoArea/InfoArea.jsx";
 import productStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/productStyle.jsx";
 
 // assets for this page
-import cardProject2 from "assets/img/examples/card-project2.jpg";
+import committedCanvas from "assets/img/committed-canvas.png";
 
 class SectionProduct extends React.Component {
   render() {
@@ -48,13 +48,13 @@ class SectionProduct extends React.Component {
               <GridItem xs={12} sm={6} md={6} className={classes.flex}>
                 <Card
                   background
-                  style={{ backgroundImage: `url(${cardProject2})` }}
+                  style={{ backgroundImage: `url(${committedCanvas})` }}
                 >
                   <CardBody background className={classes.center}>
                     <a href="#dashboard" onClick={e => e.preventDefault}>
-                      <h3 className={classes.cardTitle}>Your Committed Dash</h3>
+                      <h3 className={classes.cardTitle}>We Support You</h3>
                       <p className={classes.cardDescription}>
-                        A background image will go here to show a new category of metrics for a user’s character.
+                        You don’t have to worry about where to start and what to do.
                       </p>
                     </a>
                   </CardBody>

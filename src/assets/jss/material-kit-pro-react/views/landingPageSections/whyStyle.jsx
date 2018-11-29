@@ -24,6 +24,11 @@ const whyStyle = {
   sectionSpace: {
     height: "70px",
     display: "block"
+  },
+  whyImg: {
+    width: "75%",
+    marginLeft: "auto",
+    marginRight: "auto"
   }
 };
 

@@ -10,6 +10,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import overviewStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/overviewStyle.jsx";
 
 import landingHeader from "assets/img/landing-header.png";
+import landingHeaderMobile from "assets/img/landing-header-mobile.png";
 
 class SectionOverview extends React.Component {
   render () {
@@ -33,14 +34,28 @@ class SectionOverview extends React.Component {
                   Commit to being human in your workplace.
                 </h2>
               </GridItem>
-              <GridItem xs={12} sm={12} md={12}>
-                <Card>
-                  <img
-                    src={landingHeader}
-                    alt="Card-img-cap"
-                  />
-                </Card>
-              </GridItem>
+              {window.innerWidth >= 900 &&
+                <GridItem xs={12} sm={12} md={12}>
+                  <Card>
+                    <img
+                      src={landingHeader}
+                      alt="Card-img-cap"
+                      className={classes.headerImg}
+                    />
+                  </Card>
+                </GridItem>
+              }
+              {window.innerWidth < 900 &&
+                <GridItem xs={6} sm={6} md={6}>
+                  <Card>
+                    <img
+                    src={landingHeaderMobile}
+                      alt="Card-img-cap"
+                      className={classes.headerImg}
+                    />
+                  </Card>
+                </GridItem>
+              }
               <GridItem
                 xs={12}
                 sm={10}

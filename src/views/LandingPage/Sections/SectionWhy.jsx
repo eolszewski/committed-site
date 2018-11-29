@@ -31,7 +31,7 @@ class SectionWhy extends React.Component {
               >
                 <h2 className={classes.title}>
                   {/* TODO: Remove inline styling */}
-                  <a href="/blog" style={{ textDecoration: "underline", color: "#2A2C2B" }}>Why did we start this company?</a>
+                  <a href="https://medium.com/the-committed-archives/why-did-we-create-committed-e3a88a38885f" style={{ textDecoration: "underline", color: "#2A2C2B" }}>Why did we start this company?</a>
                 </h2>
               </GridItem>
               <GridItem xs={9} sm={5} md={5}>
@@ -40,6 +40,7 @@ class SectionWhy extends React.Component {
                   <img
                     src={landingWhy}
                     alt="Card-img-cap"
+                    className={classes.whyImg}
                   />
                 </Card>
               </GridItem>
