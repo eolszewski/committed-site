@@ -46,7 +46,7 @@ class SectionOverview extends React.Component {
                 </GridItem>
               }
               {window.innerWidth < 900 &&
-                <GridItem xs={6} sm={6} md={6}>
+                <GridItem xs={10} sm={6} md={6}>
                   <Card>
                     <img
                     src={landingHeaderMobile}

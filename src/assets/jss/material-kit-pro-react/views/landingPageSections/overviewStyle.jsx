@@ -39,7 +39,12 @@ const overviewStyle = {
     }
   },
   signUpButton: {
-    fontSize: "32px",
+    "@media (min-width: 300px)": {
+      fontSize: "14px"
+    },
+    "@media (min-width: 768px)": {
+      fontSize: "32px"
+    },
     color: "#2A2C2B",
     background: "#FCFCFC",
     marginTop: "60px",
