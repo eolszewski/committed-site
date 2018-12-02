@@ -55,7 +55,12 @@ const videoStyle = {
     height: "100%"
   },
   signUpButton: {
-    fontSize: "32px",
+    "@media (min-width: 300px)": {
+      fontSize: "14px"
+    },
+    "@media (min-width: 768px)": {
+      fontSize: "32px"
+    },
     color: "#2A2C2B",
     background: "#FCFCFC",
     marginTop: "60px",
@@ -64,7 +69,7 @@ const videoStyle = {
       background: "#2A2C2B",
       boxShadow: "0px 0px 15px 5px rgba(255, 255, 255, 0.26)",
     }
-  }
+  },
 };
 
 export default videoStyle;
